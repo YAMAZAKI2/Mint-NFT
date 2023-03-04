@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    /* Diagonal gradient from red to blue */
+      /* background: linear-gradient(to bottom right, #FF0000, #0000FF); */
+    
+      /* Horizontal gradient from orange to pink */
+      background: linear-gradient(to right, #FFA500, #FF69B4);
+    
+      /* Vertical gradient from yellow to green */
+      /* background: linear-gradient(to bottom, #FFFF00, #00FF00); */
+
+     
+    /* background: linear-gradient(to right, #A569BD, #87CEFA); */
+     
+      /* background: linear-gradient(to right, #8A2BE2, #FFC0CB); */
+
+  
+
+
+
+
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Define the scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+  /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #190e0eae;
+  /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #372e2e;
+  /* color of the thumb */
+  border-radius: 6px;
+  /* rounded corners */
+}
+
+/* Apply the styles to the body element */
+body {
+  scrollbar-width: thin;
+  /* width of the scrollbar */
+  scrollbar-color: #888 #241f1f;
+  /* colors of the thumb and track */
+}

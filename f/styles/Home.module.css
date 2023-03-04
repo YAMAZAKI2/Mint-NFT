@@ -1,0 +1,178 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0d76fc;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 3rem 0;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 0 0 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 350px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0d76fc;
+  border-color: #0d76fc;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.mintButton{
+    display: flex-box;
+    font-size: 18px;
+     justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-left:44rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    width: 100px;
+    background-color:rgb(181, 115, 115) ;
+    color:#333333;
+    border:none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    }
+    
+    .mintButton:hover {
+      transform: scale(1.3);
+    }
+
+.gif1{
+ 
+  padding-top: 0px;
+  display: flex-box;
+    margin:  auto;
+    width:306px;
+    height: 305px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    
+    background-color: rgb(113, 162, 124);
+}
+
+
+
+/* .gridcontainer {
+align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.griditem {
+  width: 300px;
+} */
+
+
+.p{
+  justify-content: center;
+  text-align: center;
+  margin-right: 2%;
+  font-size:x-large;
+}
+
+/* /* .art{
+  justify-content:center;
+  margin-right: 0px;
+  display: flex;
+  
+}
+.art p {
+text-align: center;
+
+} */
+
+ .img{
+  justify-content: center;
+    text-align: center;
+
+  } 
